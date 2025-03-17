@@ -86,3 +86,73 @@ O código HTML contém a estrutura básica da página, incluindo:
         </div>
     </section>
 </main>
+
+### Estilo CSS
+
+O estilo CSS é responsivo, adaptando-se a diferentes tamanhos de tela. Ele garante que os elementos da página estejam bem posicionados e que a interface seja agradável para o usuário.
+
+```css
+/* Exemplo de estilo simples para o layout */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-content {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-name {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button-add {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-draw {
+    padding: 15px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.name-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-list {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
